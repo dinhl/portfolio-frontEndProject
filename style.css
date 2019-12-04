@@ -1,0 +1,463 @@
+/****** Extra small devices ******/
+@media only screen and (max-width:600px){		
+	.hide-small{display:none!important;}	
+	.line{width: 120px;}		
+	.padding-main{margin-left: 0!important;}
+}
+
+/****** Portrait tablets and large phones ******/
+@media only screen and (min-width:920px){
+	.one-third-resume{width:33.33333%!important}
+	.two-third-resume{width:66.66666%!important}	
+}
+
+/****** Landscape tablets and large phone ******/
+@media (max-width:1200px) and (min-width:601px){	
+	.hide-medium{display:none!important;}	
+}
+
+/****** Extra large laptops and desktops ******/
+@media (min-width:1201px){
+	.hide-large{display:none!important;}	
+	.image-80{width: 40%!important;height: auto;}
+	.image-70{
+		width: 60%!important;
+		height: auto;		
+		text-align: center;
+	}
+}
+
+/****** General format ******/
+*{
+	font-family: 'Montserrat', sans-serif;
+	line-height: 30px;
+	box-sizing: border-box;		
+}
+
+body{margin:0 auto;}
+
+*:before,*:after{box-sizing:inherit;}
+
+.font-small{font-size:16px;}
+
+.font-medium{font-size:20px;}
+
+.font-large{font-size:25px;}
+
+.font-xlarge{font-size:32px;}
+
+.font-poiret{
+	font-family: 'Poiret One', cursive!important;
+	line-height: 40px!important;
+}
+
+.color-black{
+	background:
+	radial-gradient(black 15%, transparent 16%) 0 0,
+	radial-gradient(black 15%, transparent 16%) 8px 8px,
+	radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+	radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+	background-color:#282828;
+	background-size:14px 14px;
+	color:#fff;
+}
+
+.color-grey{color: #ccc;}
+
+.color-white{
+	color:#000!important;	
+	background-color:#fff!important
+}
+
+.color-green{color:#009688!important}
+
+.align-left{text-align:left!important;width: auto;}
+
+.align-center{text-align:center;width:auto;}
+
+.align-justify{text-align:justify;width: auto;}
+
+.margin-right-15{margin-right:15px!important} 
+
+.image-70{width: 70%;height: auto; border-radius: 6px; opacity: 0.8;}
+
+.image-80{width: 80%;height: auto; border-radius: 6px; opacity: 0.8;}
+
+.padding-container:after,.padding-container:before, .row-padding:before, 
+.row-padding:after, .top-nav-bar:before,.top-nav-bar:after, 
+.container-padding:before, .container-padding:after{content:"";display:table;clear:both;}
+
+/****** Left navigation bar ******/
+.left-nav-bar{
+	font-size: 0.8em!important;
+	height:100%;	
+	width:120px;
+	position:fixed;
+	text-align:center;		
+	display: block;	
+	border-style: dotted;
+	border-width: 0.5px;
+	border-color: black white black black;
+	background:
+	radial-gradient(black 15%, transparent 16%) 0 0,
+	radial-gradient(black 15%, transparent 16%) 8px 8px,
+	radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+	radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+	background-color:#282828;
+	background-size:14px 14px;
+}
+
+.left-nav-button{
+	width:100%;
+	display:block;
+	text-align: center;
+	padding: 10px;
+	text-decoration:none;
+	color: white;	
+}
+
+.left-nav-button:hover{
+	color:#000!important;
+	background-color:#ccc!important
+}
+
+/****** Top navigation bar ******/
+.top-nav-bar {
+	position: sticky;
+	position: -webkit-sticky;	
+	top: 0;
+	width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0px;	
+	background-color: #664d00;
+	z-index: 1;	
+}
+
+.top-nav-bar a{
+	float: left;
+	color: white;	
+	text-align: center;
+	padding: 8px 12px;
+	text-decoration: none;
+	font-size: 0.8em;	
+	display: block;
+	position: sticky;
+}
+
+.top-nav-bar a:hover{background-color: white;color: black;}
+
+.top-nav-bar a.active {background-color: #997300;}
+
+/****** Main page content ******/
+.padding-main{
+	padding: 12px 24px;
+	margin-left: 120px;
+}
+
+/****** Home page ******/
+.padding-container{padding:0.01em 16px;}
+
+.margin-auto{
+	margin-left:auto;
+	margin-right:auto;
+	max-width:80%;	
+}
+
+/****** About page ******/
+.max-width{max-width: 100%;}
+
+.line{
+	float: left;
+	width: 200px;
+	opacity: 0.6;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+}
+
+.padding-16{
+	padding-top:16px!important;
+	padding-bottom:16px!important
+}
+
+.padding-64{
+	padding-top:64px;
+	padding-bottom:64px;
+}
+
+/****** Resume page ******/
+.row-padding{padding:0 6px;}
+
+.margin-bottom-resume{margin-bottom:10px!important}
+
+.one-third-resume{
+	padding:0 6px;
+	float:left;
+	width:100%;
+}
+
+.two-third-resume{
+	float:left;
+	width:100%;
+	padding:0 6px;
+}
+
+.skill-button{
+	border: solid 1.0px;
+	border-color: grey;
+	background-color: inherit;
+	padding: 4px 6px;  	
+	display: inline-block;
+	line-height: 20px;
+	border-radius: 4px;
+	margin-bottom: 8px;
+	margin-right: 8px;
+}
+
+.cover-image{
+	transition-property: transform;
+	transition-duration: 2s;
+}
+
+.cover-image:hover{transform: scale(1.2);}
+
+.bar-teal{
+	color:#fff!important;
+	background-color:#009688!important;
+}
+
+.radius-16{border-radius:16px}
+
+/****** Interest page ******/
+.slideshow-container {		
+	max-width: 650px;
+	position: relative;
+	margin: auto;	
+}
+
+.prev, .next {
+	cursor: pointer;
+	position: absolute;		
+	top: 40%;
+	width: auto;
+	padding: 20px;		
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+
+.next {right: 0;}
+
+.prev:hover, .next:hover {background-color: black;}
+
+.slide{display: none;}
+
+.text {
+	color: #ccc;
+	opacity: 0.8;
+	font-weight: bold;
+	padding: 4px 6px;
+	position: relative;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;  
+}
+
+.dot {
+	cursor: pointer;
+	height: 18px;
+	width: 18px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;		
+}
+
+.slide img{max-width: 100%;	border-radius: 30px;}
+
+/****** Footer ******/
+.padding-32{padding-top:32px;padding-bottom:32px;}
+
+.line-height{
+	line-height: 10px!important;
+	font-weight: bold;	
+	text-align: left;
+}
+
+/****** Go to top button ******/
+#goTopBtn {
+	display: none;
+	position: fixed;
+	bottom: 15px;
+	right: 15px;  
+	font-size: 20px;
+	border: none;
+	outline: none;
+	background-color: #664d00;
+	color: white;
+	cursor: pointer;
+	padding: 12px;
+	border-radius: 50px;
+}
+
+#goTopBtn:hover {background-color: grey;}
+
+.spin{animation: spin 8s infinite}
+
+@keyframes spin{
+	0%{transform:rotate(0deg)}
+	100%{transform:rotate(359deg)}	
+}
+
+/****** Download button ******/
+.button{
+	display:inline-block;
+	padding:8px;
+	text-decoration:none;
+	text-align:center;
+	cursor:pointer;	
+	border-radius: 10px;
+}
+
+
+/****** project Section - flip on big screen ******/
+.font-black{color: black;}
+
+ul.project_bulletPoint{
+	list-style-tyle: &#9652;
+	font-size: 1em;			
+}
+
+.image-card{
+	margin-top: 30px!important;
+	width: 60%;
+	height: 160px;	
+	border-radius: 6px;	
+}
+
+.flip-card-container {
+	perspective: 1000px;  
+	-webkit-perspective: 1000px;
+	-o-perspective: 1000px;
+	-moz-perspective: 1000px;
+	border: grey solid;
+	border-width: 3px;
+	border-radius: 6px;
+	padding:10px 10px;
+	float: left;
+	width:340px;	
+	height: 600px;	
+	background-color: teal;	
+	margin: 10px 20px;	
+	position: relative;	
+	margin-left: 0px;
+}
+
+.flip-card-background {
+	position: absolute;
+	width: 95%;
+	height: 96%;
+	text-align: center;	
+	transform-style: preserve-3d;
+	transition: transform 1.0s;
+	-webkit-transform-style: preserve-3d;
+	-webkit-transition: -webkit-transform 1s;
+	-o-transform-style: preserve-3d;
+	-o-transition: -o-transform 1s;
+	-moz-transform-style: preserve-3d;
+	-moz-transition: -moz-transform 1s;
+}
+
+.flip-card-container:hover .flip-card-background {
+	position: absolute;
+	transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-webkit-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 6px;
+	backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+}
+
+.flip-card-front {  
+	position: absolute;
+	background-color: #e6e6e6;  
+	color: black;
+	font-family: 'Poiret One', cursive!important;
+}
+
+.flip-card-back {
+	position: absolute;
+	background-color: white;
+	color: grey;
+	padding: 15px;
+	font-family: 'Poiret One', cursive!important;
+	transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-webkit-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+}
+
+.margin-left-15{margin-left: 8px;float: center;}
+
+.padding-left-right{padding-left: 30px;	padding-right: 30px;}
+
+.animate {
+	animation-duration: 3s;
+	animation-name: slidein;
+}
+
+@keyframes slidein {
+	from {
+		margin-left: 100%;
+		width: 300%; 
+	}
+
+	to {
+		margin-left: 0%;
+		width: 100%;
+	}
+}
+
+/****** Project Section - button on small screen ******/
+.flip-card-container-button {
+	perspective: 1000px;  
+	-webkit-perspective: 1000px;
+	-o-perspective: 1000px;
+	-moz-perspective: 1000px;
+	border: grey solid;
+	border-width: 3px;
+	border-radius: 6px;
+	padding:10px 10px;
+	float: left;
+	width:340px;	
+	height: 600px;	
+	background-color: teal;	
+	margin: 10px 20px;	
+	position: relative;	
+	margin-left: 0px;
+}
+
+#back-1, #back-2, #back-3, #back-4, #back-5, #back-6{display: none;}
+
+.card-button {
+	font-size: 14px;
+	padding: 6px 0px;
+	width: 100px;
+	text-align: center;
+	background-color: #009688;
+	color: white;	
+	border: solid 2px #a6d8a8;
+	border-radius: 6px;
+}
