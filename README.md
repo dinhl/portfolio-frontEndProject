@@ -1,4 +1,4 @@
-## Create a portfolio website
+## Create a portfolio website - www.mandyluong.com
 
 * Utilized HTML, CSS, JavaScript to create a portfolio website
 * Applied AWS Route53 to register a domain name
